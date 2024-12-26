@@ -1,0 +1,39 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url(https://img.freepik.com/premium-photo/group-people-walking-around-building-with-sign-that-says-university-america_551880-7729.jpg);
+    background-size: cover;
+    background-position: center;
+    gap: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero_text{
+    text-align: center;
+    max-width: 800px;
+   
+
+} 
+ .hero_text h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 10px;
+} 
+ .hero_text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+    font-size: 19px;
+}
+/* .hero_text .btn{
+    background: #fff;
+    color: #212121;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+} */
